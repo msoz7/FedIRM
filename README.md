@@ -39,6 +39,9 @@ Improved Pytorch implementation for MICCAI 2021 paper "Federated Semi-supervised
 
 3. You can see the example run commands in `src/example_run.sh` file.
 
+       python3.10 train_main.py --dataset ham10000 --mode ssfl --local_ep 1 --batch_size 24 --rounds 100 --confidence_thresh 0.3 --network densnet --aggregator average --confuse mean --com densnet_2sup_8unsup
+
+   
 ## Refrence
     @article{liu2021federated,
       title={Federated Semi-supervised Medical Image Classification via Inter-client Relation Matching},
